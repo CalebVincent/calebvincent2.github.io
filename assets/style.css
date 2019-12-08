@@ -11,8 +11,6 @@
     background: #ffffff;
     border-color: #dddddd;
     padding: 20px;
-    margin-left: 20px;
-    height: 90%;
 }
 
 .figure1 {
@@ -42,6 +40,16 @@ body {
     text-align: center;
 }
 
+.navbar-right {
+    background-color: teal;
+    color: white;
+}
+
+.navlinks {
+    margin-top: 10px;
+    color: grey;
+
+}
 
 section {
     position: relative;
@@ -53,9 +61,8 @@ section {
 img {
     padding-right: 30px;
     padding-bottom: 25px;
-    width: 35%;
+    width: 80%;
     height: 200px;
-    float: left;
 }
 
 p {
@@ -148,3 +155,4 @@ button {
 }
 
 @media and (max-width: 768px)
+
