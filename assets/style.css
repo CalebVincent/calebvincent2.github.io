@@ -61,7 +61,7 @@ section {
 img {
     padding-right: 30px;
     padding-bottom: 25px;
-    width: 80%;
+    width: ;
     height: 200px;
 }
 
@@ -69,6 +69,7 @@ p {
     line-height: 35px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
 }
 
 .about1 {
@@ -154,5 +155,10 @@ button {
     width: 50px;
 }
 
-@media and (max-width: 768px)
+@media and (max-width: 768px) {
 
+.container {
+    margin-left: 10px;
+}
+
+}
